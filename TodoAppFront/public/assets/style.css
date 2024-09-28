@@ -1,0 +1,81 @@
+.main {
+    width: 100%;
+    min-height: 700px;
+    background-color: mediumpurple;
+}
+
+.section {
+    width: 60%;
+    height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.auth-section, .image-section {
+    width: 100%;
+    height: 100%;
+}
+
+.forgot-image-section{
+    width: 150% !important;
+    height: 100%;
+    background-image: url("../../public/assets/forgot.webp");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+.image-section {
+    background-image: url("../../public/assets/auth.avif");
+    border-radius: 10px;
+    background-repeat: no-repeat;
+}
+
+
+.input-area{
+    border: none !important;
+    border-bottom: 1px solid mediumpurple !important;
+    padding-left: 49px !important;
+    font-size: 14px !important;
+}
+
+.sign-btn{
+    background-color: mediumpurple !important;
+    color: white !important;
+}
+
+.sign-btn:hover{
+    background-color: #5d24d9 !important;
+    color: white !important;
+}
+
+.auth-icon{
+    width: 20px;
+    position: absolute;
+    top: 9px;
+    left: 13px;
+}
+
+.forgot-pass{
+    font-size: 13px;
+}
+
+.auth-text{
+    color: mediumpurple;
+}
+
+.form-control:focus {
+    border-color: mediumpurple !important;
+    box-shadow: 0 0 0 0.2rem rgba(106, 40, 167, 0.25) !important;
+}
+
+.error{
+    text-align: center;
+    color: red;
+    font-size: 12px;
+}
+
+.successMessage{
+    text-align: center;
+    color: green;
+    font-size: 12px;
+}
